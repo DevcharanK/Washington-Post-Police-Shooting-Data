@@ -1,1 +1,5 @@
 # Washington-Post-Police-Shooting-Data
+
+The Washington Post maintains a comprehensive record of all the police shooting related deaths in the United States since 2015. This inquiry was prompted by the 2014 fatal shooting of Michael Brown which uncovered significant underreporting. Over the years this issue has been exacerbated with just a third of the fatal police shootings being recorded by the FBI database by 2021. A key contributor to this issue is the absence of reporting by the local police departments to the federal government owing to confusion surrounding reporting responsibilities along with an updated FBI system. The Post began tracking and documenting every lethal police shooting incident in 2015. The aim of this exercise is to strengthen accountability at the department level.
+
+In this analysis, I predominantly focus on the location of the police shootings via the latitude and longitude data. Clustering algorithms like K-Means clustering and DBSCAN are utilized to visualize the different clusters based on the frequency of police shootings. Race prediction is also performed using Random Forest Classifier and Logistic Regression models. 
